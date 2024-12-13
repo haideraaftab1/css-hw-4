@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #EDD4D4;
+    position: relative;
+}
+
+#top{
+    height: 60%;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#content{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative;
+    /* box-shadow: 0.1px 5px rgb(66, 65, 65); */
+}
+
+#content video{
+    height: 97%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#overlay{
+    height: 100px;
+    width: 70%;
+    /* background-color: red; */
+    color: white;
+    
+}
+
+#over1{
+    display: flex;
+    align-items: center;
+}
+
+#scroll{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#scroll img{
+    height: 80%;
+    border-radius: 50%;
+    width: 16%;
+    object-position: center;
+}
+
+#center{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    background-color: #EDD4D4;
+    /* overflow: hidden; */
+}
+
+#center1{
+    height: 80vh;
+    width: 90%;
+    background-color:#da9b9b;
+    border: 1px dotted red;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#center h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #A52A2A;
+    font-size: 50px;
+    padding: 35px;
+}
+
+#center1 p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #A52A2A;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    gap: 10px;
+}
+
+#bottom {
+    background-color: #EDD4D4;
+    height: 90%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#center2{
+    height: 70vh;
+    width: 90%;
+    background-color:#da9b9b;
+    overflow: hidden;
+    border: 1px dotted red;
+    border-radius: 10px;
+}
+
+#center2 h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #A52A2A;
+    font-size: 50px;
+    padding: 35px;
+}
+
+#center2 p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #A52A2A;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    gap: 10px;
+}
